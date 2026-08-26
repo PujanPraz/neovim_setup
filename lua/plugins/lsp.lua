@@ -37,6 +37,12 @@ return {
       lua_ls = {
         filetypes = { "lua" },
       },
+      terraformls = {
+        filetypes = { "terraform", "tf", "terraform-vars" },
+      },
+      tflint = {
+        filetypes = { "terraform", "tf" },
+      },
     },
   },
 }
